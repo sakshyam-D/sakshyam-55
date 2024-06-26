@@ -1,0 +1,544 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+.nav1{
+    height: 35px;
+    background-color: rgb(49, 45, 45);
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    gap: 55%;
+    align-items: center;
+}
+.login:hover{
+    background-color: aqua;
+}
+.contact{
+    display: flex;
+    gap: 20px;
+}
+.icons{
+    display: flex;
+    gap: 5px;
+    color: rgb(255, 255, 255);
+}
+i{
+    background-color: rgb(104, 104, 104);
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 15px;
+}
+.nav {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-self: space-around;
+    color: rgb(0, 0, 0);
+    gap: 15%;
+    animation: move 5s linear 4s infinite;
+}
+@keyframes move{ 
+    from{
+background-color: yellow;
+    }
+    to{
+background-color: aqua;
+    }
+}
+.navitem {
+    display: flex;
+    gap: 40px;
+}    
+.navitem a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.logo {
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+.login{
+    height: 25px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 40px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 12px;
+}
+img{
+    position: absolute;
+    height: 550px;
+    width: 1440px;
+}
+.best{
+    position: absolute;
+    font-size: 80px;
+    top: 230px;
+    left: 455px;
+    font-weight: 100;
+}
+.best1{
+    position: absolute;
+    font-size: 80px;
+    top: 310px;
+    left: 510px;
+    font-weight: 100;
+}
+.p1{
+    position: absolute;
+    left: 485px;
+    top: 410px;
+}
+.p2{
+    position: absolute;
+    top: 430px;
+    left: 550px;
+}
+.button1{
+    position: absolute;
+    top: 475px;
+    left: 550px;
+    background-color: brown;
+    border-radius: 30px;
+    border: 1px solid brown;
+    font-size: 11px;
+    height: 40px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+}
+.button2{
+    position: absolute;
+    top: 475px;
+    left: 665px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 11px;
+    height: 40px;
+    width: 100px;
+}
+.div1{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    height: 479px;
+    width: 1440px;
+}
+.browse{
+    position: absolute;
+    top: 50px;
+    left: 530px;
+    font-weight: 100;
+}
+.div2{
+    position: absolute;
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 7px;
+    height: 270px;
+    width: 200px;
+    top: 130px;
+    left: 195px;
+}
+.div3{
+    position: absolute;
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 7px;
+    height: 270px;
+    width: 200px;
+    top: 130px;
+    left: 420px;
+}
+.div4{
+    position: absolute;
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 7px;
+    height: 270px;
+    width: 200px;
+    top: 130px;
+    left: 645px;
+}
+.div5{
+    position: absolute;
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 7px;
+    height: 270px;
+    width: 200px;
+    top: 130px;
+    left: 880px;
+}
+.img1{
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    background-color: rgb(235, 225, 225);
+    border-radius: 205px;
+    top: 25px;
+    left: 70px;
+}
+.img2{
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    background-color: rgb(235, 225, 225);
+    border-radius: 205px;
+    top: 25px;
+    left: 70px;
+}
+.img3{
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    background-color: rgb(235, 225, 225);
+    border-radius: 205px;
+    top: 25px;
+    left: 70px;
+}
+.img4{
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    background-color: rgb(235, 225, 225);
+    border-radius: 205px;
+    top: 25px;
+    left: 70px;
+}
+.breakfast{
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-size: 20px;
+}
+.maindishes{
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    font-size: 20px;
+}
+.drinks{
+    position: absolute;
+    top: 90px;
+    left: 75px;
+    font-size: 20px;
+}
+.dessert{
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    font-size: 20px;
+}
+.pa1{
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    top: 110px;
+    padding: 20px;
+}
+.exploremenu{
+    position: absolute;
+    color: red;
+    top: 220px;
+    left: 50px;
+    font-size: 16px;
+}
+.div6{
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    top: 175%;
+    height: 500px;
+    width: 1440px;
+}
+.img5{
+    left: 125px;
+    top: 65px;
+    height: 370px;
+    width: 337px;
+}
+.weprovide{
+    position: absolute;
+    font-weight: 500;
+    left: 540px;
+    top: 120px;
+    font-size: 45px;
+}.foodfor{
+    position: absolute;
+    font-weight: 500;
+    left: 542px;
+    top: 172px;
+    font-size: 45px;
+} 
+.paa1{
+    position: absolute;
+    top: 240px;left: 542px;font-size: 14px;
+}.paa2{
+    position: absolute;
+    top: 255px;left: 542px;font-size: 14px;
+}.paa3{
+    position: absolute;
+    top: 270px;left: 542px;font-size: 14px;
+}.paa4{
+    position: absolute;
+    top: 285px;left: 542px;font-size: 14px;
+}.paa5{
+    position: absolute;
+    top: 315px;left: 542px;font-size: 14px;
+}.paa6{
+    position: absolute;
+    top: 330px;left: 542px;font-size: 14px;
+}.paa7{
+    position: absolute;
+    top: 345px;left: 542px;font-size: 14px;
+}
+.button3{
+    position: absolute;
+    top: 380px;left: 542px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 11px;
+    height: 40px;
+    width: 110px;
+}
+.div7{
+    position: absolute;
+    top: 253%;
+    background-color: rgb(255, 255, 255);
+    height: 630px;
+    width: 1440px;
+}.we{ position: absolute; left: 130px; top: 70px; font-size: 40px; font-weight: 100; }
+.we1{ position: absolute; left: 132px; top: 108px; font-size: 40px; font-weight: 100; }
+.img6{
+    position: absolute;
+    top: 190px;
+    left: 130px;
+    height: 240px;
+    width: 215px;
+    border-radius: 10px;
+}.img7{
+    position: absolute;
+    top: 190px;
+    left: 370px;
+    height: 240px;
+    width: 215px;
+    border-radius: 10px;
+}.img8{
+    position: absolute;
+    top: 190px;
+    left: 610px;
+    height: 240px;
+    width: 215px;
+    border-radius: 10px;
+}.img9{
+    position: absolute;
+    top: 190px;
+    left: 850px;
+    height: 240px;
+    width: 215px;
+    border-radius: 10px;
+}
+.caterings{
+    position: absolute;
+    top: 450px;
+    left: 130px;
+}
+.cater1{
+    position: absolute;
+    top: 490px;
+    left: 130px;
+    font-size: 14px;
+    color: rgb(40, 41, 41);
+}.cater2{
+    position: absolute;
+    top: 510px;
+    left: 130px;
+    font-size: 14px;
+    color: rgb(40, 41, 41);
+}
+.birthdays{
+    position: absolute;
+    top: 450px;
+    left: 370px;
+}
+.birt1{
+    position: absolute;
+    top: 490px;
+    left: 370px;
+    font-size: 14px;
+    color: rgb(40, 41, 41);
+}.birt2{
+    position: absolute;
+    top: 510px;
+    left: 370px;
+    font-size: 14px;
+    color: rgb(40, 41, 41);
+}.weddings{
+    position: absolute;
+    top: 450px;
+    left: 610px;
+}.wedd1{
+    position: absolute;
+    top: 490px;
+    left: 610px;
+    font-size: 14px;
+    color: rgb(40, 41, 41);
+}.wedd2{
+    position: absolute;
+    top: 510px;
+    left: 610px;
+    font-size: 14px;
+    color: rgb(40, 41, 41);
+}.events{
+    position: absolute;
+    top: 450px;
+    left: 850px;
+}.even1{
+    position: absolute;
+    top: 490px;
+    left: 850px;
+    font-size: 14px;
+    color: rgb(40, 41, 41);
+}
+.even2{
+    position: absolute;
+    top: 510px;
+    left: 850px;
+    font-size: 14px;
+    color: rgb(40, 41, 41);
+}
+.div8{
+    position: absolute;
+    top: 351%;
+    background-color: rgb(233, 233, 233);
+    height: 600px;
+    width: 1440px;
+}
+.img10{
+    position: absolute;
+    height: 440px;width: 305px;
+    left: 120px;top: 90px;
+}.img11{
+    position: absolute;
+    height: 230px;width: 200px;
+    left: 450px;top: 108px;
+}.img12{
+    position: absolute;
+    height: 200px;width: 200px;
+    left: 450px;top: 360px;
+    
+}
+.hh2{
+    position: absolute;
+    top: 170px;
+    left: 750px;
+    width: 450px;
+    font-size: 55px;
+    font-weight: 300;
+}.hh3{
+    position: absolute;
+    font-size: 12px;
+    width: 290px;
+    top: 320px;left: 750px;
+}.ic{
+    position: absolute;
+    left: 800px;top: 390px;
+}.ic2{
+    position: absolute;
+    left: 800px;top: 415px;
+}.ic3{
+    position: absolute;
+    left: 800px;top: 440px;
+}
+.div9{
+    position: absolute;
+    top: 443%;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 1440px;
+}.what{
+    position: absolute;
+    top: 65px;left: 510px;
+}.the{
+    position: absolute;
+    top: 190px;left: 150px;color: rgb(204, 6, 6);font-size: 15px;
+}.simply{
+    position: absolute;
+    top: 190px;left: 550px;color: rgb(204, 6, 6);font-size: 15px;
+}.one{
+    position: absolute;
+    top: 190px;left: 950px; color: rgb(204, 6, 6);font-size: 15px;
+}.last{
+    position: absolute;top: 235px;left: 150px;
+}.simply1{
+    position: absolute;top: 255px;left: 150px;
+}.stepped{
+    position: absolute;top: 275px;left: 150px;
+}.inviting{
+    position: absolute;top: 295px;left: 150px;
+}.warm{
+    position: absolute;top: 315px;left: 150px;
+}.l1{
+    position: absolute;
+    top: 235px;left: 550px;
+}.l2{
+    position: absolute;top: 255px;left: 550px;
+}.l3{
+    position: absolute;top: 275px;left: 550px;
+}.l4{
+    position: absolute;top: 295px;left: 550px;
+}.l5{
+    position: absolute;top: 315px;left: 550px;
+}
+.l6{
+    position: absolute;
+    top: 235px;left: 950px;
+}.l7{
+    position: absolute;
+    top: 255px;left: 950px;
+}.l8{
+    position: absolute;
+    top: 275px;left: 950px;
+}.l9{
+    position: absolute;
+    top: 295px;left: 950px;
+}.l10{
+    position: absolute;
+    top: 315px;left: 950px;
+}
+.img13{
+    position: absolute;
+    height: 70px;width: 70px;
+    left: 150px;top: 340px;
+}.img14{
+    position: absolute;
+    height: 70px;width: 70px;
+    left: 550px;top: 340px;
+}.img15{
+    position: absolute;
+    height: 70px;width: 70px;
+    left: 950px;top: 340px;
+}
+.div10{
+    position: absolute;
+    top: 534%;
+    background-color: rgb(241, 241, 241);
+    height: 650px;
+    width: 1440px;
+}.our11{
+    position: absolute;
+    top: 50px;left: 150px;
+}.read{
+    position: absolute;
+    top: 50px;left: 950px;
+    background-color: rgb(187, 66, 66);
+    color: white;
+    height: 35px;
+    width: 110px;
+    font-size: 10px;
+    border-radius: 40px;
+    border: 0px solid  rgb(187, 66, 66);
+}

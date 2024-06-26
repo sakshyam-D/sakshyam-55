@@ -1,0 +1,31 @@
+.div1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    animation: move 5s linear 4s infinite;
+}
+@keyframes move{ 
+    from{
+background-color: yellow;
+    }
+    to{
+background-color: aqua;
+    }
+} 
+.div2{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: blue;
+    animation: mo 2s linear 1s infinite;
+}
+@keyframes mo{
+    from{
+top: 200px;
+left: 0px;
+    }
+    to{
+top: 0px;
+left: 900px;
+    }
+}
